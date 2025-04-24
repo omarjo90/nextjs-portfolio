@@ -22,15 +22,26 @@ export default function Hero() {
           <p className="max-w-xl text-base sm:text-lg text-muted-foreground mb-6">
             Specializing in backend automation, CI/CD validation, and scalable test frameworks across modern cloud and mobile platforms.
           </p>
-          <a
-            href="/Omar_Josue_Guzman_Valerin_Updated_CV.docx"
-            download
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-6 py-3 text-sm font-semibold bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 transition"
-          >
-            Download CV
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/Omar_Josue_Guzman_Valerin_Updated_CV.docx"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-gray-800 rounded-md hover:bg-gray-700 transition"
+            >
+              📄 Download CV (Word)
+            </a>
+            <a
+              href="/Omar_Josue_Guzman_Valerin_Updated_CV.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-gray-800 rounded-md hover:bg-gray-700 transition"
+            >
+              📄 Download CV (PDF)
+            </a>
+          </div>
         </div>
       </div>
     </section>

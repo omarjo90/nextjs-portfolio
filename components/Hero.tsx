@@ -23,8 +23,10 @@ export default function Hero() {
             Specializing in backend automation, CI/CD validation, and scalable test frameworks across modern cloud and mobile platforms.
           </p>
           <a
-            href="/omar-valerin-cv.pdf"
+            href="/Omar_Josue_Guzman_Valerin_Updated_CV.docx"
             download
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block px-6 py-3 text-sm font-semibold bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 transition"
           >
             Download CV
